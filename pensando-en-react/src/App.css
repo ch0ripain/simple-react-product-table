@@ -1,0 +1,81 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.tabla{
+  width: 100%;
+  margin-top: 35px;
+  background-color: #5376ea;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #efefef;
+
+  & thead{
+    background-color: #6b92ef;
+  }
+
+  & tbody{
+    background-color: #9bb8f5;
+  }
+}
+
+input[type='text']{
+  width: 80%;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #f2f7fb;
+  color: #06070a;
+  padding-left: 8px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  font-size: smaller;
+  margin-top: 5px;
+}
+
+.checkbox-label input {
+  margin-right: 5px;
+}
